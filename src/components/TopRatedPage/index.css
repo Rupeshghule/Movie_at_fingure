@@ -1,0 +1,51 @@
+.top-rated-page {
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(45deg, rgb(60, 0, 60) 60%, white 40%);
+  background-size: 200% 200%;
+  animation: backgroundMove 5s ease infinite;
+  height: 275vh;
+  display: flex;
+  flex-direction: column;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.pagination-cont {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.pagination {
+  margin-top: 20px;
+
+
+}
+
+.pagination span {
+  color: #ffffff;
+}
+
+.pagination button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #33393F;
+  color: #ffffff;
+  border: none;
+  cursor: pointer;
+  margin-right: 10px;
+}
+
+.pagination button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.pagination button:hover {
+  background-color: #33393F;
+}
